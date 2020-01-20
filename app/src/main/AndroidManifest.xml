@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kotlinsub4">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".MV"
+        android:allowBackup="false"
+        android:icon="@mipmap/ya"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ya_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="m">
+        <activity android:name=".MainBotNavActivity"
+            android:label="@string/title_activity_main_bot_nav">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.kotlinsub4.ui.tv.detailtv.DetailTvActivity"/>
+        <activity android:name="com.example.kotlinsub4.ui.mv.detailmv.DetailMvActivity"/>
+    </application>
+
+</manifest>

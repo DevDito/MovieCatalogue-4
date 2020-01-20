@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">expertSub4</string>
+    <string name="favorite_success_add_tv_show">Berhasil menambahkan Acara TV ke Favorit!</string>
+    <string name="favorite_success_remove_movie">Berhasil menghapus film dari favorit!</string>
+    <string name="favorite_success_remove_tv_show">"Berhasil menghapus Acara TV dari favorit! "</string>
+    <string name="favorite_tv_show_is_empty">Acara TV Favorit kosong!</string>
+    <string name="title_activity_main">Katalog Film</string>
+    <string name="title_activity_main_bot_nav">Katalog Film</string>
+    <string name="title_fav">Favorit</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tv">TV</string>
+    <string name="vote">Vote</string>
+    <string name="bahasa_asal">Bahasa asli</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="failure">Kegagalan</string>
+    <string name="favorite_movies_is_empty">Film Favorit kosong!</string>
+    <string name="favorite_success_add_movie">Berhasil menambahkan film ke Favorit!</string>
+    <string name="tab_favorites">Favorit</string>
+    <string name="tab_movies">Film</string>
+    <string name="tab_tv_shows">Acara TV</string>
+    <string name="tanggal_rilis">Tanggal Rilis</string>
+    <string name="title">Judul</string>
+
+
+</resources>
